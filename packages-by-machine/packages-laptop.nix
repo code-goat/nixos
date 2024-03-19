@@ -3,6 +3,7 @@
     # To search, run: $ nix search wget
     environment.systemPackages = with pkgs; [
 	  atuin
+    alacritty
 	  appimage-run
 	  bcachefs-tools
       bitwarden
