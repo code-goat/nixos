@@ -51,6 +51,7 @@
       libsForQt5.packagekit-qt
       libportal-qt5
       kdeconnect
+      kitty
       magic-wormhole
       mattermost-desktop
       micro
