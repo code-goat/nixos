@@ -173,7 +173,7 @@
 
 	  # Enable Plasma Desktop Environment	
         services.desktopManager.plasma6.enable = true;
-		    services.desktopManager.plasma6.enableQt5Integration = true;
+		services.desktopManager.plasma6.enableQt5Integration = true;
         services.xserver.displayManager.defaultSession = "plasma";
       
       # Enable XFCE Desktop Environment
