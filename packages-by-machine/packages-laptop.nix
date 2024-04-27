@@ -53,7 +53,7 @@
       kdeconnect
       kitty
       magic-wormhole
-      mattermost-desktop
+      #mattermost-desktop
       micro
       neofetch
       neovim
@@ -68,7 +68,7 @@
       python3Full
       riseup-vpn
       rpi-imager
-	  rustdesk
+	  #rustdesk
       signal-desktop
       starship
       syncthing-tray
