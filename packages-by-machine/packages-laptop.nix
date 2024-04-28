@@ -31,6 +31,7 @@
       fishPlugins.hydro
       fzf
       fishPlugins.grc
+      freetube
       grc
 	   gh
       gimp

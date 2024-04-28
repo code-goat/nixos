@@ -165,7 +165,7 @@
 	  #	programs.hyprland.enable = true;
 	  	  
       # Enable the KDE Plasma Desktop Environment.
-        services.xserver.displayManager.sddm.enable = true;
+        services.displayManager.sddm.enable = true;
        # services.xserver.displayManager.sddm.theme = "clairvoyance";
 		#services.xserver.displayManager.gdm.enable = true;
 		#services.xserver.displayManager.gdm.wayland = true;
@@ -174,7 +174,7 @@
 	  # Enable Plasma Desktop Environment	
         services.desktopManager.plasma6.enable = true;
 		services.desktopManager.plasma6.enableQt5Integration = true;
-        services.xserver.displayManager.defaultSession = "plasma";
+        services.displayManager.defaultSession = "plasma";
       
       # Enable XFCE Desktop Environment
       #  services.xserver.desktopManager.xfce.enable = true;
@@ -186,7 +186,7 @@
       	#services.xserver.desktopManager.enlightenment.enable = true;
 
       # Enable touchpad support (enabled default in most desktopManager).
-        services.xserver.libinput.enable = true;   
+        services.libinput.enable = true;   
              
       # Enable Bluetooth Support
         hardware.bluetooth.enable = true;
