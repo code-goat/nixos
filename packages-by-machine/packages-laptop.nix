@@ -13,6 +13,7 @@
       btrfs-progs
 	  bottom
       busybox
+      chromium
       cmake
       croc
       corefonts
